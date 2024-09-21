@@ -1,0 +1,12 @@
+{
+  "name": "wad-203-typescript-core-types",
+  "version": "1.0.0",
+  "description": "This is a collection of exercises to practice the core types of TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
