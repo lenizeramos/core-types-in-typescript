@@ -1,9 +1,9 @@
-let coordinate: number[];
+let coordinate: number[] = [3,5];
 
 let locations: {
   description: string;
   coordinate: number[];
-} = { description: "Somewhere", coordinate: [3, 5] };
+} = { description: "Somewhere", coordinate};
 
-console.log(locations.description);
-console.log(locations.coordinate);
+console.log(locations);
+console.log(coordinate);

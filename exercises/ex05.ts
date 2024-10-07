@@ -1,5 +1,5 @@
 enum Day {
-  SUNDAY = 1,
+  SUNDAY,
   MONDAY,
   TUESDAY,
   WEDNESDAY,
@@ -8,10 +8,12 @@ enum Day {
   SATURDAY,
 }
 
-console.log(Day.SUNDAY);
-
+console.log(`Today is ${Day.MONDAY}`);
 
 let Race: {
-    participants: string[],
-    
-} 
+  participants: string[];
+  firstPlace: string;
+  secondPlace: string;
+  thirdPlace: string;
+  day: Day;
+};
