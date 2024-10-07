@@ -1,7 +1,7 @@
 var reservation = {
     customerInformation: "Lulu",
     paymentInformation: true,
-    checkIn: 15,
-    checkOut: 11,
+    checkIn: new Date("2024-10-01"),
+    checkOut: new Date("2024-10-10"),
 };
 console.log(reservation);
